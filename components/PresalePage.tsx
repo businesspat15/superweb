@@ -452,18 +452,7 @@ const PresalePage: React.FC<PresalePageProps> = ({ walletState, onConnectWallet 
                     )}
                 </div>
 
-                {/* Contract Address Mock */}
-                <div className="mt-6 text-center">
-                    <p className="text-xs text-gray-500 mb-2">Presale Wallet Address</p>
-                    <button 
-                        onClick={handleCopyAddress}
-                        className="inline-flex items-center gap-2 bg-navy-800/50 px-4 py-2 rounded-lg border border-white/5 text-gray-400 text-xs font-mono hover:text-white cursor-pointer transition-colors group hover:border-gold-500/30"
-                    >
-                        <img src="https://upload.wikimedia.org/wikipedia/en/b/b9/Solana_logo.png" alt="SOL" className="w-4 h-4 object-contain" />
-                        <span>{PRESALE_WALLET.slice(0, 4)}...{PRESALE_WALLET.slice(-4)}</span>
-                        {copied ? <CheckCircle size={12} className="text-gold-500" /> : <Copy size={12} className="group-hover:text-gold-400" />}
-                    </button>
-                </div>
+                              
             </div>
 
         </div>
