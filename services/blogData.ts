@@ -178,7 +178,7 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 104,
     slug: "day-4-been-mining-for-24-hours",
     title: "Day 4: Been Mining for 24 Hours",
-    excerpt: "Still no Bitcoin. Laptop is now a heater. Electricity bill is going to be interesting.",
+    excerpt: "Still no Bitcoin. PC is now a heater. Electricity bill is going to be interesting.",
     date: "Jan 8, 2026",
     readTime: "2 min read",
     category: "The Origin",
@@ -203,16 +203,16 @@ export const BLOG_POSTS: BlogPost[] = [
     <div style="position: absolute; font-size: 50px; animation: float-up 3s ease-in-out infinite; opacity: 0.7; top: 160px; right: 120px; animation-delay: 2s;">z</div>
     <div class="top-text" style="color: white; text-transform: uppercase; font-size: 32px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0 #000; position: absolute; top: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">BEEN MINING FOR 24 HOURS</div>
     <div class="character" style="font-size: 120px; margin-bottom: 20px; animation: sleepy 2s ease-in-out infinite;">😴</div>
-    <div class="bottom-text" style="color: white; text-transform: uppercase; font-size: 28px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0 #000; position: absolute; bottom: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">STILL NO BITCOIN<br>LAPTOP IS NOW A HEATER</div>
+    <div class="bottom-text" style="color: white; text-transform: uppercase; font-size: 28px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0 #000; position: absolute; bottom: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">STILL NO BITCOIN<br>PC IS NOW A HEATER</div>
   </div>
   <div class="meme-footer" style="background: #f5f5f5; padding: 25px; color: #333; font-family: Arial, sans-serif;">
     <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 4</div>
     <div style="line-height: 1.6; font-size: 15px;">
-        <strong>What happened:</strong> TOTO's been mining for a full day. His wallet still shows "0.00000000 BTC" and he's starting to have doubts. His laptop is so hot he could fry an egg on it. His electricity bill is going to be interesting this month.
+        <strong>What happened:</strong> TOTO's been mining for a full day. His wallet still shows "0.00000000 BTC" and he's starting to have doubts. His PC is so hot he could fry an egg on it. His electricity bill is going to be interesting this month.
         <br><br>
         <strong>His thoughts:</strong> "Is this thing even working? Maybe I configured it wrong? The forums said CPU mining would get blocks... eventually? HOW LONG IS EVENTUALLY?! 😤"
         <br><br>
-        <strong>What he did:</strong> Checked his wallet 47 times today. Googled "bitcoin mining not working" and "how long to mine 1 bitcoin 2010." Read that difficulty increases over time and panicked. Decided to let it run another day. Wife threatens to unplug the laptop if he doesn't stop obsessing.
+        <strong>What he did:</strong> Checked his wallet 47 times today. Googled "bitcoin mining not working" and "how long to mine 1 bitcoin 2010." Read that difficulty increases over time and panicked. Decided to let it run another day. Wife threatens to unplug the PC if he doesn't stop obsessing.
     </div>
     <div style="background: #1a1a1a; color: #00ff00; padding: 12px; border-radius: 8px; margin-top: 10px; font-family: 'Courier New', monospace; font-size: 13px;">
         > Hash Rate: ~2.5 MH/s<br>
@@ -222,7 +222,7 @@ export const BLOG_POSTS: BlogPost[] = [
         > Status: Still going... 🔥
     </div>
     <div style="background: #fff3cd; padding: 10px; border-radius: 8px; margin-top: 15px; text-align: center; font-weight: bold; color: #856404;">
-        💰 Bitcoin Price: ~$0.10 | His Holdings: 0 BTC | Hope Level: 65% | Laptop Temp: 89°C
+        💰 Bitcoin Price: ~$0.10 | His Holdings: 0 BTC | Hope Level: 65% | PC Temp: 89°C
     </div>
   </div>
 </div>
@@ -263,11 +263,11 @@ export const BLOG_POSTS: BlogPost[] = [
   <div class="meme-footer" style="background: #f5f5f5; padding: 25px; color: #333; font-family: Arial, sans-serif;">
     <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 3</div>
     <div style="line-height: 1.6; font-size: 15px;">
-        <strong>What happened:</strong> The blockchain finally finished syncing at 6:47 AM! TOTO woke up, saw "100% Complete" and actually fist-pumped the air. His laptop survived (barely). Now he's staring at the Bitcoin-Qt wallet interface like it's alien technology.
+        <strong>What happened:</strong> The blockchain finally finished syncing at 6:47 AM! TOTO woke up, saw "100% Complete" and actually fist-pumped the air. His PC survived (barely). Now he's staring at the Bitcoin-Qt wallet interface like it's alien technology.
         <br><br>
         <strong>His thoughts:</strong> "Okay so... I just click 'Start Mining' and free money appears? This feels like a scam but also... what if it's not? 🤔💰"
         <br><br>
-        <strong>What he did:</strong> Googled "how to mine bitcoin 2010" for 2 hours. Read forum posts from nerds arguing about GPU vs CPU mining. Decided to try CPU mining first with his Intel Core 2 Duo processor. Started mining at 11:23 AM. His laptop fan sounds like a jet engine.
+        <strong>What he did:</strong> Googled "how to mine bitcoin 2010" for 2 hours. Read forum posts from nerds arguing about GPU vs CPU mining. Decided to try CPU mining first with his Intel Core 2 Duo processor. Started mining at 11:23 AM. His PC fan sounds like a jet engine.
     </div>
     <div style="background: #d4edda; padding: 10px; border-radius: 8px; margin-top: 15px; text-align: center; font-weight: bold; color: #155724;">
         💰 Bitcoin Price: ~$0.10 | His Holdings: 0 BTC | Mining Started: ✅ | CPU Temperature: 🔥🔥🔥
@@ -280,7 +280,7 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 102,
     slug: "day-2-downloading-bitcoin-qt",
     title: "Day 2: Downloading Bitcoin-Qt",
-    excerpt: "Why is this 20GB?! My laptop is dying! TOTO decides to download the Bitcoin client software.",
+    excerpt: "Why is this 20GB?! My PC is dying! TOTO decides to download the Bitcoin client software.",
     date: "Jan 6, 2026",
     readTime: "2 min read",
     category: "The Origin",
@@ -309,7 +309,7 @@ export const BLOG_POSTS: BlogPost[] = [
         😰
       </div>
       <div class="blog-image-text" style="${TEXT_BOTTOM_STYLE}">
-        WHY IS THIS 20GB?!<br>MY LAPTOP IS DYING!
+        WHY IS THIS 20GB?!<br>MY PC IS DYING!
       </div>
     </div>
     <div style="${FOOTER_STYLE}">
@@ -317,11 +317,11 @@ export const BLOG_POSTS: BlogPost[] = [
         📅 DAY 2
       </div>
       <div style="${BODY_STYLE}">
-        <strong>What happened:</strong> TOTO decided to download the Bitcoin client software. His 2010 laptop with 250GB hard drive started sweating. The blockchain was already several gigabytes and growing.
+        <strong>What happened:</strong> TOTO decided to download the Bitcoin client software. His 2010 PC with 250GB hard drive started sweating. The blockchain was already several gigabytes and growing.
         <br><br>
         <strong>His thoughts:</strong> "Why does digital money need to download the entire history of transactions?! This is going to take forever on my dial-up... I mean DSL."
         <br><br>
-        <strong>What he did:</strong> Left his laptop running overnight. His wife yelled at him for keeping the computer fan noise running. Almost gave up three times. Googled "is bitcoin a virus?"
+        <strong>What he did:</strong> Left his PC running overnight. His wife yelled at him for keeping the computer fan noise running. Almost gave up three times. Googled "is bitcoin a virus?"
       </div>
       <div style="background: #e0e0e0; height: 8px; border-radius: 4px; margin-top: 10px; overflow: hidden;">
         <div style="background: #f7931a; height: 100%; width: 35%; animation: loading 2s ease-in-out infinite;"></div>
