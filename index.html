@@ -5,19 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CIFCI TOTO | Solana Tycoon</title>
     <link rel="icon" type="image/png" href="https://assets.zyrosite.com/mk3vgMQRxEcer7k1/toto_the-_ceo-Yle45r8kvWIVzwka.png" />
-    <script>
-      // Fix for SPA routing on static hosts
-      // Redirects /blog to /#/blog so HashRouter can handle it
-      (function() {
-        var path = window.location.pathname;
-        if (path.length > 1 && !path.includes('.')) {
-          var hash = window.location.hash;
-          if (!hash) {
-             window.location.replace('/#' + path + window.location.search);
-          }
-        }
-      })();
-    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -104,8 +91,10 @@
     window.Buffer = Buffer;
     window.global = window;
 </script>
+<link rel="stylesheet" href="/index.css">
 </head>
   <body>
     <div id="root"></div>
-  </body>
+  <script type="module" src="/index.tsx"></script>
+</body>
 </html>
