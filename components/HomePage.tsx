@@ -224,7 +224,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative flex min-h-screen items-start justify-center overflow-hidden px-4 md:px-6 pt-24 md:pt-32">
+      <section className="relative flex items-start justify-center overflow-hidden px-4 md:px-6 pt-24 pb-20 md:pt-32 md:pb-28">
         {/* Background Gradients */}
         <div className="absolute top-1/4 -left-32 h-96 w-96 rounded-full bg-gold-600/10 blur-[100px]"></div>
         <div className="absolute bottom-1/4 -right-32 h-96 w-96 rounded-full bg-purple-600/10 blur-[100px]"></div>
@@ -264,7 +264,7 @@ const HomePage: React.FC = () => {
       </section>
       
       {/* Quote Section */}
-      <section className="relative z-20 -mt-20 md:-mt-10 mx-4 md:mx-6 mb-12">
+      <section className="relative z-20 -mt-12 mx-4 md:mx-6 mb-12">
         <div className="mx-auto max-w-4xl transform rounded-2xl border border-gold-500/30 bg-navy-800/80 p-6 md:p-8 text-center shadow-[0_0_30px_rgba(34,197,94,0.1)] backdrop-blur-md transition-transform hover:scale-[1.02]">
             <Quote className="mx-auto mb-4 h-6 w-6 md:h-8 md:w-8 text-gold-500 opacity-50" />
             <p className="font-serif text-xl md:text-2xl font-medium italic text-white lg:text-3xl">

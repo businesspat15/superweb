@@ -222,7 +222,7 @@ const PresalePage: React.FC<PresalePageProps> = ({ walletState, onConnectWallet 
                      />
                      <div>
                         <h2 className="text-3xl md:text-5xl font-black text-white leading-none">TOTO</h2>
-                        <p className="text-gold-400 text-sm font-bold tracking-[0.2em] mt-1">THE TYCOON</p>
+                        <p className="text-gold-400 text-sm font-bold tracking-[0.2em] mt-1">THE CEO</p>
                      </div>
                 </div>
                 
@@ -300,10 +300,26 @@ const PresalePage: React.FC<PresalePageProps> = ({ walletState, onConnectWallet 
                         </div>
                         <div>
                             <h4 className="font-bold text-white mb-1">Audited Contract</h4>
-                            <p className="text-xs text-gray-400 leading-relaxed">Smart contract fully audited by top firms. 100% Secure & Liquidity Locked.</p>
+                            <p className="text-xs text-gray-400 leading-relaxed">Smart contract fully audited by top firms. 100% Secure.</p>
                         </div>
                     </div>
                 </div>
+
+                 {/* Contract Address - Moved */}
+                 <div className="bg-navy-800 rounded-xl p-6 border border-white/5 text-center shadow-lg">
+                      <p className="text-gray-500 text-xs uppercase tracking-wider mb-3">Contract</p>
+                      <button 
+                        onClick={handleCopyAddress}
+                        className="w-full flex items-center justify-center gap-2 bg-navy-900/50 hover:bg-navy-900 py-3 rounded-lg font-mono text-sm text-gold-400 transition-all border border-white/5 hover:border-gold-500/30 group"
+                      >
+                          <img src="https://upload.wikimedia.org/wikipedia/en/b/b9/Solana_logo.png" alt="SOL" className="w-4 h-4 object-contain opacity-70" />
+                          <span className="truncate">Please do your own research before participating. Not available to residents of restricted jurisdictions.</span>
+                          {copied ? <CheckCircle size={16} className="text-green-500" /> : <Copy size={16} className="text-gray-500 group-hover:text-white" />}
+                      </button>
+                      <p className="text-xs text-gray-600 mt-3 flex items-center justify-center gap-1">
+                          <AlertCircle size={12} /> Only send SOL or USDC (SPL) to this address.
+                      </p>
+                 </div>
 
             </div>
 
@@ -451,8 +467,6 @@ const PresalePage: React.FC<PresalePageProps> = ({ walletState, onConnectWallet 
                         </>
                     )}
                 </div>
-
-                              
             </div>
 
         </div>
