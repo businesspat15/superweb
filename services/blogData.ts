@@ -69,6 +69,171 @@ const generateContent = (header: string, topText: string, emoji: string, bottomT
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    id: 109,
+    slug: "day-9-gpu-mining-rig-online",
+    title: "Day 9: GPU Mining Rig Online!",
+    excerpt: "Hashrate: 250 MH/s. It's like a money printer! TOTO finally got the GPU mining rig working.",
+    date: "Jan 13, 2026",
+    readTime: "3 min read",
+    category: "The Origin",
+    imageUrl: "https://assets.zyrosite.com/mk3vgMQRxEcer7k1/it-s-like-a-money-printer-FrdXKFXErQXplIna.png",
+    likes: 9,
+    content: `
+<div class="meme-container" style="background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden; max-width: 600px; width: 100%; margin: 0 auto;">
+  <style>
+    @keyframes victory { 0%, 100% { transform: scale(1) rotate(0deg); } 25% { transform: scale(1.15) rotate(-15deg); } 75% { transform: scale(1.15) rotate(15deg); } }
+    @keyframes flicker { 0%, 100% { transform: scale(1); opacity: 0.8; } 50% { transform: scale(1.3); opacity: 1; } }
+    @media (max-width: 640px) {
+        .meme-container { border-radius: 15px !important; }
+        .top-text, .bottom-text { font-size: 20px !important; }
+    }
+  </style>
+  <div class="meme-header" style="background: #f7931a; color: white; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; font-family: Impact, sans-serif;">
+    CIFCI TOTO'S BITCOIN JOURNEY 🚀
+  </div>
+  <div class="meme-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; overflow: hidden;">
+    <div class="fire" style="position: absolute; font-size: 45px; animation: flicker 1s ease-in-out infinite; bottom: 80px; left: 120px; animation-delay: 0s;">🔥</div>
+    <div class="fire" style="position: absolute; font-size: 45px; animation: flicker 1s ease-in-out infinite; bottom: 100px; left: 160px; animation-delay: 0.3s;">🔥</div>
+    <div class="fire" style="position: absolute; font-size: 45px; animation: flicker 1s ease-in-out infinite; bottom: 90px; right: 140px; animation-delay: 0.6s;">🔥</div>
+    <div class="top-text" style="color: white; text-transform: uppercase; font-size: 32px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0px #000; letter-spacing: 2px; line-height: 1.2; position: absolute; top: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">GPU MINING RIG: ONLINE!</div>
+    <div class="character" style="font-size: 120px; margin-bottom: 20px; animation: victory 0.8s ease-in-out infinite;">🎮</div>
+    <div class="bottom-text" style="color: white; text-transform: uppercase; font-size: 28px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0px #000; letter-spacing: 2px; line-height: 1.2; position: absolute; bottom: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">HASHRATE: 250 MH/S<br>IT'S LIKE A MONEY PRINTER!</div>
+  </div>
+  <div class="meme-footer" style="background: #f5f5f5; padding: 25px; color: #333; font-family: Arial, sans-serif;">
+    <div class="date" style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 9</div>
+    <div class="story" style="line-height: 1.6; font-size: 15px;">
+        <strong>What happened:</strong> After 6 more hours of tinkering (and one emergency call to his tech-savvy cousin), TOTO finally got the GPU mining rig working! He powered it on at 4:37 PM, ran the mining software, and watched in amazement as the hashrate jumped from 2.5 MH/s to 250 MH/s. That's 100x faster than CPU mining!
+        <br><br>
+        <strong>His thoughts:</strong> "THIS IS INSANE! Look at those numbers go! At this rate I could mine a block every few hours! My room sounds like an airplane hangar and feels like a sauna, but WHO CARES?! I'M MINING BITCOIN! 🚀💰"
+        <br><br>
+        <strong>What he did:</strong> Stood and watched the mining software for 45 minutes straight. Took a video to send to BitcoinTalk forum. Posted: "Just got my GPU rig online - 250MH/s!! TO THE MOON!!" Called his wife to tell her the good news (she hung up). Ordered a second GPU because "if one is good, two is better." His electric meter is spinning like a DJ turntable.
+    </div>
+    <div class="performance" style="background: #e8f5e9; padding: 12px; border-radius: 8px; margin-top: 10px; font-family: 'Courier New', monospace; font-size: 13px; color: #1b5e20; border-left: 4px solid #4caf50;">
+        ⚡ MINING STATS:<br>
+        CPU: 2.5 MH/s → GPU: 250 MH/s (100x faster!)<br>
+        Estimated blocks/day: ~3-4 blocks<br>
+        Est. daily earnings: 150-200 BTC ($15-20)<br>
+        Power consumption: YES 🔥<br>
+        Room temperature: TROPICAL 🌴
+    </div>
+    <div class="btc-price" style="background: #d4edda; padding: 10px; border-radius: 8px; margin-top: 15px; text-align: center; font-weight: bold; color: #155724;">
+        💰 Bitcoin Price: ~$0.10 | His Holdings: 200 BTC ($20.00) | ROI Timeline: Still calculating... | Wife Status: Still at mom's 📱❌
+    </div>
+  </div>
+</div>
+`
+  },
+  {
+    id: 108,
+    slug: "day-8-mining-rig-arrived",
+    title: "Day 8: Mining Rig Arrived!",
+    excerpt: "3 Hours later... Still reading manual. TOTO called in \"sick\" to assemble his mining rig.",
+    date: "Jan 12, 2026",
+    readTime: "3 min read",
+    category: "The Origin",
+    imageUrl: "https://assets.zyrosite.com/mk3vgMQRxEcer7k1/still-reading-manual-MZl1cI1X7ZqmfsNb.png",
+    likes: 6,
+    content: `
+<div class="meme-container" style="background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden; max-width: 600px; width: 100%; margin: 0 auto;">
+  <style>
+    @keyframes tinker { 0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } }
+    @keyframes rotate { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    @media (max-width: 640px) {
+        .meme-container { border-radius: 15px !important; }
+        .top-text, .bottom-text { font-size: 20px !important; }
+    }
+  </style>
+  <div class="meme-header" style="background: #f7931a; color: white; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; font-family: Impact, sans-serif;">
+    CIFCI TOTO'S BITCOIN JOURNEY 🚀
+  </div>
+  <div class="meme-image" style="background: linear-gradient(135deg, #434343 0%, #000000 100%); height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; overflow: hidden;">
+    <div class="tools" style="position: absolute; font-size: 40px; animation: rotate 3s linear infinite; top: 80px; left: 80px; animation-delay: 0s;">🔧</div>
+    <div class="tools" style="position: absolute; font-size: 40px; animation: rotate 3s linear infinite; top: 100px; right: 80px; animation-delay: 1s;">🔨</div>
+    <div class="tools" style="position: absolute; font-size: 40px; animation: rotate 3s linear infinite; bottom: 100px; left: 100px; animation-delay: 2s;">⚙️</div>
+    <div class="top-text" style="color: white; text-transform: uppercase; font-size: 32px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0px #000; letter-spacing: 2px; line-height: 1.2; position: absolute; top: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">MINING RIG ARRIVED!</div>
+    <div class="character" style="font-size: 120px; margin-bottom: 20px; animation: tinker 1s ease-in-out infinite;">🛠️</div>
+    <div class="bottom-text" style="color: white; text-transform: uppercase; font-size: 28px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0px #000; letter-spacing: 2px; line-height: 1.2; position: absolute; bottom: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">3 HOURS LATER...<br>STILL READING MANUAL</div>
+  </div>
+  <div class="meme-footer" style="background: #f5f5f5; padding: 25px; color: #333; font-family: Arial, sans-serif;">
+    <div class="date" style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 8</div>
+    <div class="story" style="line-height: 1.6; font-size: 15px;">
+        <strong>What happened:</strong> The FedEx truck arrived at 10:23 AM. TOTO called in "sick" to work (he's not sick, just excited). Five big boxes are now scattered across his living room floor. His wife is at her mother's house "thinking about things." It's just TOTO, his dreams, and a pile of computer parts.
+        <br><br>
+        <strong>His thoughts:</strong> "Okay, this should be easy. Just plug everything together like LEGO, right? *reads manual* Wait, what's a PCIe riser? Why are there so many cables?! Do I need thermal paste? WHAT IS THERMAL PASTE?! 😵"
+        <br><br>
+        <strong>What he did:</strong> Opened every box like it was Christmas. Took photos for documentation. Started assembling the rig. Realized he needs a screwdriver (doesn't have one). Drove to hardware store. Got distracted watching YouTube tutorials. Three hours later, he's installed the motherboard, power supply, and... that's it. The GPU is still in the box. His CPU miner is still running in the background though (priorities!).
+    </div>
+    <div class="setup-log" style="background: #263238; color: #00ff00; padding: 12px; border-radius: 8px; margin-top: 10px; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
+        [10:23] Package delivered ✓<br>
+        [10:47] All boxes opened ✓<br>
+        [11:15] Manual reading initiated...<br>
+        [12:30] Hardware store trip...<br>
+        [13:45] YouTube tutorial #7...<br>
+        [14:00] Motherboard installed ✓<br>
+        [14:30] Still figuring out GPU mounting... ⏳
+    </div>
+    <div class="btc-price" style="background: #e8f5e9; padding: 10px; border-radius: 8px; margin-top: 15px; text-align: center; font-weight: bold; color: #2e7d32;">
+        💰 Bitcoin Price: ~$0.10 | His Holdings: 150 BTC ($15.00) | Setup Progress: 30% | Confidence: 45%
+    </div>
+  </div>
+</div>
+`
+  },
+  {
+    id: 107,
+    slug: "day-7-honey-i-can-explain",
+    title: "Day 7: Honey, I Can Explain...",
+    excerpt: "He clicked \"Place Order\" at 2 AM after 3 beers. Now he has to explain the $750 charge to his wife.",
+    date: "Jan 11, 2026",
+    readTime: "3 min read",
+    category: "The Origin",
+    imageUrl: "https://assets.zyrosite.com/mk3vgMQRxEcer7k1/honey-i-can-explain-mBSA5a6i8Cy2Oe7N.png",
+    likes: 5,
+    content: `
+<div class="meme-container" style="background: white; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden; max-width: 600px; width: 100%; margin: 0 auto;">
+  <style>
+    @keyframes nervous { 0%, 100% { transform: translateX(-3px); } 50% { transform: translateX(3px); } }
+    @keyframes drip { 0% { transform: translateY(0px); opacity: 1; } 100% { transform: translateY(30px); opacity: 0; } }
+    @media (max-width: 640px) {
+        .meme-container { border-radius: 15px !important; }
+        .top-text, .bottom-text { font-size: 20px !important; }
+    }
+  </style>
+  <div class="meme-header" style="background: #f7931a; color: white; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; font-family: Impact, sans-serif;">
+    CIFCI TOTO'S BITCOIN JOURNEY 🚀
+  </div>
+  <div class="meme-image" style="background: linear-gradient(135deg, #134e5e 0%, #71b280 100%); height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative; overflow: hidden;">
+    <div class="sweat" style="position: absolute; font-size: 35px; animation: drip 1.5s ease-in-out infinite; top: 120px; left: 220px; animation-delay: 0s;">💧</div>
+    <div class="sweat" style="position: absolute; font-size: 35px; animation: drip 1.5s ease-in-out infinite; top: 140px; left: 250px; animation-delay: 0.3s;">💧</div>
+    <div class="sweat" style="position: absolute; font-size: 35px; animation: drip 1.5s ease-in-out infinite; top: 130px; right: 240px; animation-delay: 0.6s;">💧</div>
+    <div class="top-text" style="color: white; text-transform: uppercase; font-size: 28px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0 #000; letter-spacing: 2px; line-height: 1.2; position: absolute; top: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">"HONEY, I CAN EXPLAIN<br>THE $750 CHARGE..."</div>
+    <div class="character" style="font-size: 120px; margin-bottom: 20px; animation: nervous 0.3s ease-in-out infinite;">😰</div>
+    <div class="bottom-text" style="color: white; text-transform: uppercase; font-size: 26px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0 #000; letter-spacing: 2px; line-height: 1.2; position: absolute; bottom: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">HE CLICKED "PLACE ORDER"<br>AT 2 AM AFTER 3 BEERS</div>
+  </div>
+  <div class="meme-footer" style="background: #f5f5f5; padding: 25px; color: #333; font-family: Arial, sans-serif;">
+    <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 7</div>
+    <div style="line-height: 1.6; font-size: 15px;">
+        <strong>What happened:</strong> Last night, after a few beers and watching his CPU mine another block, TOTO had a moment of "liquid courage" at 2:47 AM. He clicked "Place Order" on the entire $750 mining rig. This morning he woke up to the order confirmation email and immediately panicked.
+        <br><br>
+        <strong>His thoughts:</strong> "OH NO. What have I done?! That's... that's almost our entire savings! How do I explain to my wife that I spent $750 to mine internet money worth 10 cents each?! Maybe I can cancel the order? *checks email* IT ALREADY SHIPPED?! 😱"
+        <br><br>
+        <strong>What he did:</strong> Spent 2 hours crafting the "perfect explanation" for his wife. Practiced the speech in the mirror. Made another spreadsheet showing "projected returns" (very optimistic). His wife found the shipping notification. The conversation did NOT go well. She's now questioning his sanity. He's sleeping on the couch tonight.
+    </div>
+    <div style="background: #fce4ec; padding: 12px; border-radius: 8px; margin-top: 10px; font-size: 14px; color: #880e4f; border-left: 4px solid #e91e63;">
+        💬 <strong>Wife:</strong> "You spent HOW MUCH on WHAT?!"<br>
+        💬 <strong>TOTO:</strong> "But honey, think of it as an investment!"<br>
+        💬 <strong>Wife:</strong> "An investment in FAKE COMPUTER MONEY?!"<br>
+        💬 <strong>TOTO:</strong> "It's not fake, it's cryptographically secured..."<br>
+        💬 <strong>Wife:</strong> "The couch is cryptographically secured for you tonight."
+    </div>
+    <div style="background: #ffebee; padding: 10px; border-radius: 8px; margin-top: 15px; text-align: center; font-weight: bold; color: #c62828;">
+        💰 Bitcoin Price: ~$0.10 | His Holdings: 100 BTC ($10.00) | Money Spent: $750 | Marriage Status: 🔥
+    </div>
+  </div>
+</div>
+`
+  },
+  {
     id: 106,
     slug: "day-6-browsing-newegg-at-work",
     title: "Day 6: Browsing Newegg At Work",
@@ -100,7 +265,7 @@ export const BLOG_POSTS: BlogPost[] = [
     <div class="bottom-text" style="color: white; text-transform: uppercase; font-size: 26px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0 #000; position: absolute; bottom: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">SHOULD I BUY A<br>$400 GPU TO MINE $5 COINS?</div>
   </div>
   <div class="meme-footer" style="background: #f5f5f5; padding: 25px; color: #333; font-family: Arial, sans-serif;">
-    <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 6</div>
+    <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 6 - November 5, 2010</div>
     <div style="line-height: 1.6; font-size: 15px;">
         <strong>What happened:</strong> TOTO spent his entire workday researching GPU mining instead of doing actual work. He's discovered that GPUs can mine 100x faster than CPUs. His boss walked by his desk three times while he had Newegg open looking at AMD Radeon HD 5970 cards.
         <br><br>
@@ -156,7 +321,7 @@ export const BLOG_POSTS: BlogPost[] = [
     <div class="bottom-text" style="color: white; text-transform: uppercase; font-size: 28px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0 #000; position: absolute; bottom: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">50 BTC = $5.00<br>"I'M RICH!" - TOTO, 2010</div>
   </div>
   <div class="meme-footer" style="background: #f5f5f5; padding: 25px; color: #333; font-family: Arial, sans-serif;">
-    <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 5</div>
+    <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 5 - November 4, 2010</div>
     <div style="line-height: 1.6; font-size: 15px;">
         <strong>What happened:</strong> At 3:42 AM, TOTO's wallet made a notification sound. He jumped out of bed like it was Christmas morning. There it was: 50.00000000 BTC in his wallet! His first mined block!
         <br><br>
@@ -206,7 +371,7 @@ export const BLOG_POSTS: BlogPost[] = [
     <div class="bottom-text" style="color: white; text-transform: uppercase; font-size: 28px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0 #000; position: absolute; bottom: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">STILL NO BITCOIN<br>PC IS NOW A HEATER</div>
   </div>
   <div class="meme-footer" style="background: #f5f5f5; padding: 25px; color: #333; font-family: Arial, sans-serif;">
-    <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 4</div>
+    <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 4 - November 3, 2010</div>
     <div style="line-height: 1.6; font-size: 15px;">
         <strong>What happened:</strong> TOTO's been mining for a full day. His wallet still shows "0.00000000 BTC" and he's starting to have doubts. His PC is so hot he could fry an egg on it. His electricity bill is going to be interesting this month.
         <br><br>
@@ -261,7 +426,7 @@ export const BLOG_POSTS: BlogPost[] = [
     <div class="bottom-text" style="color: white; text-transform: uppercase; font-size: 28px; text-align: center; padding: 10px 20px; text-shadow: 3px 3px 0 #000; position: absolute; bottom: 20px; left: 0; right: 0; font-family: Impact, sans-serif;">TIME TO START MINING<br>THIS "MAGIC INTERNET MONEY"</div>
   </div>
   <div class="meme-footer" style="background: #f5f5f5; padding: 25px; color: #333; font-family: Arial, sans-serif;">
-    <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 3</div>
+    <div style="font-weight: bold; color: #f7931a; font-size: 18px; margin-bottom: 10px;">📅 DAY 3 - November 2, 2010</div>
     <div style="line-height: 1.6; font-size: 15px;">
         <strong>What happened:</strong> The blockchain finally finished syncing at 6:47 AM! TOTO woke up, saw "100% Complete" and actually fist-pumped the air. His PC survived (barely). Now he's staring at the Bitcoin-Qt wallet interface like it's alien technology.
         <br><br>
@@ -314,7 +479,7 @@ export const BLOG_POSTS: BlogPost[] = [
     </div>
     <div style="${FOOTER_STYLE}">
       <div style="${FOOTER_TITLE_STYLE}">
-        📅 DAY 2
+        📅 DAY 2 - November 1, 2010
       </div>
       <div style="${BODY_STYLE}">
         <strong>What happened:</strong> TOTO decided to download the Bitcoin client software. His 2010 PC with 250GB hard drive started sweating. The blockchain was already several gigabytes and growing.
@@ -349,7 +514,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "OCTOBER 31, 2010",
       "🤓",
       "READS \"BITCOIN: A PEER-TO-PEER<br> ELECTRONIC CASH SYSTEM\"",
-      "📅 DAY 1",
+      "📅 DAY 1 – October 31, 2010",
       `<strong>What happened:</strong> CIFCI TOTO stumbled upon Satoshi Nakamoto's Bitcoin whitepaper on a random tech forum at 2 AM. His first reaction: "This is either genius or complete nonsense... probably nonsense."
       <br><br>
       <strong>His thoughts:</strong> "Digital money without banks? Yeah right. But wait... the math actually checks out? 🤔"

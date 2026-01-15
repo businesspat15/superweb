@@ -38,45 +38,57 @@
 
   <!-- Blog Posts -->
   <url>
-    <loc>https://www.cifcitoto.com/blog/day-1-reading-whitepaper</loc>
-    <lastmod>2026-01-05</lastmod>
+    <loc>https://www.cifcitoto.com/blog/day-9-gpu-mining-rig-online</loc>
+    <lastmod>2026-01-13</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://www.cifcitoto.com/blog/day-2-downloading-bitcoin-qt</loc>
-    <lastmod>2026-01-06</lastmod>
+    <loc>https://www.cifcitoto.com/blog/day-8-mining-rig-arrived</loc>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
-
   <url>
-    <loc>https://www.cifcitoto.com/blog/day-3-blockchain-fully-synced</loc>
-    <lastmod>2026-01-07</lastmod>
+    <loc>https://www.cifcitoto.com/blog/day-7-honey-i-can-explain</loc>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
-
-  <url>
-    <loc>https://www.cifcitoto.com/blog/day-4-been-mining-for-24-hours</loc>
-    <lastmod>2026-01-08</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://www.cifcitoto.com/blog/day-5-mined-first-block</loc>
-    <lastmod>2026-01-09</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.6</priority>
-  </url>
-
   <url>
     <loc>https://www.cifcitoto.com/blog/day-6-browsing-newegg-at-work</loc>
     <lastmod>2026-01-10</lastmod>
     <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
-
+  <url>
+    <loc>https://www.cifcitoto.com/blog/day-5-mined-first-block</loc>
+    <lastmod>2026-01-09</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.cifcitoto.com/blog/day-4-been-mining-for-24-hours</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.cifcitoto.com/blog/day-3-blockchain-fully-synced</loc>
+    <lastmod>2026-01-07</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.cifcitoto.com/blog/day-2-downloading-bitcoin-qt</loc>
+    <lastmod>2026-01-06</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.cifcitoto.com/blog/day-1-reading-whitepaper</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
